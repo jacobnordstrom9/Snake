@@ -13,6 +13,9 @@ function main (currentTime) {
         if(confirm('You lost. Press ok to restart.')) {
             // update this website to bring you back to the beginning of the game. 
             window.location = "/projects/fullStackGame/snake/index.html"
+        } else{
+            // update this to redirect you to another webpage when you press cancel.
+            window.location ="#"
         }
         return
     }
